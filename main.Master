@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="project.main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>RAJHANCE PRO</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            color: #FF0000;
+            background-color: #000000;
+            font-size: xx-large;
+            width: 1349px;
+        }
+        .style3
+        {
+            color: #E32029;
+            background-color: #000000;
+        }
+        .style4
+        {
+            color: #FFFFFF;
+            background-color: #222222;
+        }
+        .style6
+        {
+            height: 89px;
+            width: 416px;
+        }
+        .style8
+        {
+            height: 89px;
+            width: 894px;
+        }
+        .style9
+        {
+            width: 1343px;
+            height: 138px;
+        }
+        .style10
+        {
+            height: 34px;
+            width: 928px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body style="font-family: Verdana; height: 478px; width: 1353px;">
+        
+     
+
+    <form id="form1" runat="server">
+<div class="style2" style="border: thin double #008000; text-align: center">
+    <strong style="background-color: "">
+    <asp:Image ID="Image1" runat="server" Height="63px" 
+        ImageUrl="~/images/logo/logo.png" 
+        Width="78px" />
+    <span class="style3">RAJHANCE HONDA SHOWROOM</span><asp:Image ID="Image2" runat="server" Height="66px" 
+        ImageUrl="~/images/logo/logo.png" 
+        Width="78px" />
+    </strong></div>
+    <div class="navbar">
+        <link href="styles/StyleSheet1.css" rel="stylesheet" type="text/css" />   
+  <a href="homepage.aspx"> HOME</a>
+  <div class="subnav">
+    </div> 
+  <div class="subnav">
+    <button class="subnavbtn">BIKES <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="BIKES.aspx">Motercycles<br /><img src="images/menu/moto.png"  height="50px" width="70px"></a>
+      
+      <a href="Scoter.aspx">Scooters<br /><img src="images/menu/moto2.png"  height="50px" width="70px"></a>
+        <a href="SUPERBIKES.aspx">Superbikes<br /><img src="images/menu/moto3.png"  height="50px" width="70px"><br /></a>
+       
+    </div>
+  </div> 
+  <div class="subnav">
+   
+    <div class="subnav-content">
+      
+    </div>
+    </div>
+  
+
+  <a href="services.aspx">SERVICES</a>
+
+  <a href="Gallery.aspx">GALLARY</a>
+    <a href="Contact us.aspx">CONTACT US</a>
+
+    <a href="registration.aspx">REGISTRATION</a>
+       <a href="LOG%20IN.aspx">LOG IN</a>
+    <a href="Feedback.aspx">FEEDBACK </a>
+    <a href="ABOUT US.aspx">ABOUT</a>
+</div>
+
+    <div style="width: 1353px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style="height: 24px; text-align: left; background-color: #FFFFFF;">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+         <asp:Panel ID="Panel1" runat="server" BorderColor="Black" Height="274px" 
+        style="background-color: #222222; margin-right: 2px;" Width="1353px"><footer>
+  <p class="style4">&nbsp;
+  <table>
+  
+  
+      <caption>
+          <p class="style4">
+              Posted by: SHREE INFOTECH</p>
+          <p>
+              <span class="style4">Contact information: </span>
+              <a href="https://www.honda2wheelersindia.com"><span class="style4">
+              https://www.honda2wheelersindia.com/</span></a><span class="style4">.</span></p>
+          <h3 class="style9">
+              <table>
+                  <tr style=" background-color :Aqua">
+                      <td class="style6" 
+                          style="border: thin none #000000; background-color: #1E2125;">
+                          <asp:Image ID="Image3" runat="server" Height="143px" 
+                              ImageUrl="~/images/logo/honda-408.png" Width="298px" />
+                          <br />
+                      </td>
+                      <td class="style8" 
+                          style="border: thin none #000000; background-color: #1E2125;">
+                          <br />
+                          <br />
+                          <asp:Panel ID="Panel2" runat="server" Height="36px" Width="927px">
+                              <strong>
+                              <marquee style="color: #FFFF66; background-color: #FF0000;" class="style10"> 
+                              Note: This Web supported in Internet Explorer 8 and earlier versions.<marquee></marquee></marquee></strong></marquee>&nbsp;</asp:Panel>
+                      </td>
+                  </tr>
+              </table>
+             
+          </h3>
+          </asp:Panel>
+    </form>
+</body>
+</html>
